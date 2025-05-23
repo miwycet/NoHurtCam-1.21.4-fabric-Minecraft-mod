@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "dev.miwycet.mixins",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+  ],
+  "client": [
+    "GameRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

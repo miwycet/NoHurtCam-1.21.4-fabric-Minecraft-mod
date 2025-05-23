@@ -1,0 +1,25 @@
+{
+	"schemaVersion": 1,
+	"id": "nohurtcam",
+	"version": "${version}",
+	"name": "nohurtcam",
+	"description": "",
+	"authors": [
+		"miwycet"
+	],
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.miwycet.NoHurtCam"
+		]
+	},
+	"mixins": [
+		"nohurtcam.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
